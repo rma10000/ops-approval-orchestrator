@@ -1,0 +1,15 @@
+# Virtual environment & Python cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets (NEVER commit .env)
+.env
+
+# Generated runtime artifacts (SQLite DBs, Excel reports, test PDFs)
+*.db
+*.db-shm
+*.db-wal
+*.xlsx
+po_*.pdf
